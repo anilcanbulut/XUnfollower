@@ -12,7 +12,7 @@ The way how the XUnfollower works is very simple. Here are the steps you need to
 3. Click on "Console" tab.
 4. In the console tab, paste the code below to the new code line starts with ">" sign and enter. After you click enter the code will start and you will see it will sequentially start to unfollow the acounts that do not follow you.
 
-'''bash
+```javascript
 	(async function autoUnfollowLoop() {
 	  const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 	  const randomDelay = () => Math.floor(200 + Math.random() * 800); // 200–1000 ms
@@ -74,4 +74,4 @@ The way how the XUnfollower works is very simple. Here are the steps you need to
 		await sleep(1500); // Small delay between loops
 	  }
 	})();
-'''
+```
