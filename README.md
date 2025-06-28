@@ -1,16 +1,19 @@
 # XUnfollower
 
-This repository is reponsible for unfollowing the accounts in your X account that did not follow you back. This repository provides a simple yet effective solution to the X unfollowing problem. If you see a problem, just create an issue.
+This repository automates the process of unfollowing accounts on your X account that do not follow you back. It offers a straightforward solution for managing your follow list. If you encounter any issues, please open an issue in the repository.
 
-Note: All the things are tested on Desktop environment in Chrome Browser. So it is highly recommended to follow this environment setup even though it might work in other browsers as well.
+Note: All features have been tested in a desktop environment using the Chrome browser. It is recommended to use the same setup, although it may also work in other browsers.
 
 ## Usage
-The way how the XUnfollower works is very simple. Here are the steps you need to follow:
 
-1. First, you should sign in to your X account and go into the "Following" page where the accounts you follow are listed.
-2. Right click on your browser and click to "Inspect" to open the DevTools.
-3. Click on "Console" tab.
-4. In the console tab, paste the code below to the new code line starts with ">" sign and enter. After you click enter the code will start and you will see it will sequentially start to unfollow the acounts that do not follow you.
+Using XUnfollower is straightforward. Follow these steps:
+
+1. Sign in to your X account and navigate to the **Following** page.
+2. Right-click anywhere on the page and select **Inspect** to open the Developer Tools.
+3. Click the **Console** tab.
+4. Paste the script below into the command line that starts with the `>` symbol, then press **Enter**.
+
+The script will begin running and will automatically unfollow accounts that do not follow you back, one by one.
 
 ```javascript
 	(async function autoUnfollowLoop() {
