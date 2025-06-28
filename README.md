@@ -83,7 +83,7 @@ The script will begin running and will automatically unfollow accounts that do n
 ## Update
 Here is another script that this time it asks you to pass a threshold for the number of followers for each account. If the account's number of followers is greater than or equal to the threshold you passed then the account is skipped and not unfollowed.
 
-'''javascript
+```javascript
 	(async function autoUnfollowLoopWithInputs() {
 	  const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 	  const randomDelay = () => Math.floor(200 + Math.random() * 800); // 200–1000 ms
@@ -222,4 +222,4 @@ Here is another script that this time it asks you to pass a threshold for the nu
 	  }
 	})();
 
-'''
+```
