@@ -11,6 +11,7 @@ The way how the XUnfollower works is very simple. Here are the steps you need to
 2. Right click on your browser and click to "Inspect" to open the DevTools.
 3. Click on "Console" tab.
 4. In the console tab, paste the code below to the new code line starts with ">" sign and enter. After you click enter the code will start and you will see it will sequentially start to unfollow the acounts that do not follow you.
+
 '''bash
 	(async function autoUnfollowLoop() {
 	  const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
